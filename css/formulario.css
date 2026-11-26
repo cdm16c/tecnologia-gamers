@@ -1,0 +1,127 @@
+
+/* ESTILOS DEL FORMULARIO DE COTIZACIÓN */
+
+.seccion-formulario {
+    background-color: #f5f7f8;
+}
+
+.seccion-formulario h2,
+.seccion-formulario > .contenedor > p {
+    text-align: center;
+}
+
+.formulario {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e3ddef;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #24124c;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: 2px solid #5122c9;
+    border-color: #5122c9;
+}
+
+.formulario fieldset {
+    border: 1px solid #e3ddef;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    padding: 15px;
+}
+
+.formulario legend {
+    color: #5122c9;
+    font-weight: bold;
+}
+
+.formulario .opcion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    accent-color: #5122c9;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario .boton {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton-limpiar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: white;
+    color: #5122c9;
+    border: 2px solid #5122c9;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-limpiar:hover {
+    background-color: #f0ebff;
+}
+
+#mensaje-formulario {
+    text-align: center;
+    color: #16803c;
+    font-weight: bold;
+}
+
+.formulario small {
+    display: block;
+    color: #666;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .formulario {
+        padding: 20px;
+    }
+
+}
